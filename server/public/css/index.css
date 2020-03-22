@@ -1,0 +1,56 @@
+.container {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.head {
+    height: 50px;
+    background: #5e5e5e;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.content {
+    height: 600px;
+    background: #EBEBEB;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.input {
+    height: 50px;
+    background: #D3D3D3;
+    position: relative;
+    line-height: 50px;
+    text-align: center;
+}
+
+input{
+    border: none;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-size: 20px;
+    height: 24px;
+    width: 300px;
+    vertical-align: middle;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+button{
+    border: none;
+    background: yellowgreen;
+    color: #fff;
+    width: 80px;
+    height: 28px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+}
